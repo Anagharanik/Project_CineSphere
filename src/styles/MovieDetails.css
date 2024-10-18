@@ -1,0 +1,64 @@
+.movie-details {
+    padding: 20px;
+    text-align: center;
+}
+
+
+.movie-details img {
+    border-radius: 8px;
+    width: 300px; /* Larger size for details */
+}
+
+.movie-details h2 {
+    margin: 20px 0;
+}
+
+.movie-details p {
+    margin: 10px 0;
+}
+
+
+.back-button {
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    /* Text color */
+    background-color: #e2e2e2; /* Darker shade on hover */
+    color:  #0c6567; 
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+    display: flex; /* Flexbox for alignment */
+    align-items: center; /* Center items vertically */
+}
+
+.back-button:hover {
+   
+    background-color: #635c5c52; /* Light background color */
+    color: #fff; 
+}
+
+.back-button:focus {
+    outline: none; /* Remove default outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+
+.back-button .icon {
+    margin-right: 5px; /* Space between icon and text */
+}
+
+
+.movie-details {
+    padding: 20px;
+}
+
+.related-movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center align the cards */
+    margin-top: 20px;
+}
+
+.related-movies .movie-card {
+    margin: 10px; /* Space between movie cards */
+}

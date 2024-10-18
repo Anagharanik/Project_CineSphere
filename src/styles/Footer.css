@@ -1,0 +1,23 @@
+.footer {
+    background-color: #282c34; /* Footer background color */
+    color: #f1f1f1; /* Text color */
+    text-align: center; /* Center align text */
+    padding: 15px; /* Spacing around footer */
+    position: relative; /* Position footer relative to the page */
+    bottom: 0; /* Stick to the bottom */
+    width: 100%; /* Full width */
+}
+
+.footer-links {
+    margin-top: 10px; /* Space above links */
+}
+
+.footer-links a {
+    color: #f1f1f1; /* Link color */
+    margin: 0 15px; /* Spacing between links */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
