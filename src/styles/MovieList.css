@@ -1,59 +1,59 @@
 .movie-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /* Center align the cards */
+    justify-content: center; 
     padding: 20px;
 }
 
 .search-container {
-    display: flex; /* Use flexbox for alignment */
-    justify-content: center; /* Center the container */
-    align-items: center; /* Center vertically */
-    margin: 20px 0; /* Space around the container */
-    position: relative; /* For positioning suggestions */
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin: 20px 0; 
+    position: relative; 
 }
 
 .search-input {
-    width: 100%; /* Full width */
-    max-width: 600px; /* Max width to limit size on larger screens */
-    padding: 10px; /* Padding for better spacing */
-    border: 1px solid #ccc; /* Light border */
-    border-radius: 5px 0 0 5px; /* Rounded left corners */
-    font-size: 16px; /* Font size */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition for focus state */
+    width: 100%;
+    max-width: 600px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px 0 0 5px; 
+    font-size: 16px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: border-color 0.3s, box-shadow 0.3s; 
 }
 
 .search-input:focus {
-    border-color: #0d8c9f; /* Change border color on focus */
-    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
-    outline: none; /* Remove default outline */
+    border-color: #0d8c9f; 
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+    outline: none; 
 }
 
 .search-button {
-    padding: 10px 20px; /* Padding for button */
-    border: none; /* No border */
-    border-radius: 0 5px 5px 0; /* Rounded right corners */
-    background-color: #0c6567; /* Button color */
-    color: white; /* Text color */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Pointer cursor */
-    transition: background-color 0.3s; /* Smooth transition */
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background-color: #0c6567; 
+    color: white; 
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .search-button:hover {
-    background-color: #1998a6; /* Darker shade on hover */
+    background-color: #1998a6; 
 }
 
 /* Suggestions list styling */
 .suggestions-list {
     position: absolute;
     top: 100%;
-    left: 50%; /* Center horizontally */
-    transform: translateX(-50%); /* Adjust to align center */
+    left: 50%;
+    transform: translateX(-50%); 
     background-color: white;
     border: 1px solid #ccc;
-    border-radius: 10px; /* Rounded edges */
+    border-radius: 10px;
     z-index: 1000;
     max-height: 200px;
     max-width: 500px;
@@ -61,16 +61,15 @@
     list-style: none;
     padding: 0;
     margin: 0;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 
 .suggestion-item {
-    padding: 10px 15px; /* Added horizontal padding for better spacing */
+    padding: 10px 15px;
     cursor: pointer;
-    transition: background-color 0.2s; /* Smooth transition for hover effect */
-    border-radius: 5px; /* Rounded edges for suggestions */
+    transition: background-color 0.2s; 
+    border-radius: 5px; 
 }
 
 .suggestion-item:hover {
-    background-color: #f0f0f0; /* Light background on hover */
+    background-color: #f0f0f0; 
 }
