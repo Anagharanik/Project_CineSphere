@@ -1,23 +1,23 @@
 .footer {
-    background-color: #282c34; /* Footer background color */
-    color: #f1f1f1; /* Text color */
-    text-align: center; /* Center align text */
-    padding: 15px; /* Spacing around footer */
-    position: relative; /* Position footer relative to the page */
-    bottom: 0; /* Stick to the bottom */
-    width: 100%; /* Full width */
+    background-color: #282c34; 
+    color: #f1f1f1;  
+    text-align: center; 
+    padding: 15px; 
+    position: relative;
+    bottom: 0;
+    width: 100%; 
 }
 
 .footer-links {
-    margin-top: 10px; /* Space above links */
+    margin-top: 10px;
 }
 
 .footer-links a {
-    color: #f1f1f1; /* Link color */
-    margin: 0 15px; /* Spacing between links */
-    text-decoration: none; /* Remove underline */
+    color: #f1f1f1; 
+    margin: 0 15px; 
+    text-decoration: none; 
 }
 
 .footer-links a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
