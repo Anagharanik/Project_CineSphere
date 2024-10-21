@@ -17,7 +17,7 @@
 .movie-card img {
     border-radius: 5px;
     width: 100%;
-    height: auto; /* Adjusts the height automatically */
+    height: auto;
 }
 
 .movie-card h3 {
@@ -31,18 +31,18 @@
 
 
 .trailer-link {
-    display: inline-block; /* Block-level for better spacing */
-    margin-top: 10px; /* Space above the link */
-    padding: 5px 10px; /* Padding for better click area */
-    background-color:  #0c6567; /* Button color */
-    color: white; /* Text color */
-    text-decoration: none; /* No underline */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth transition */
+    display: inline-block; 
+    margin-top: 10px; 
+    padding: 5px 10px; 
+    background-color:  #0c6567; 
+    color: white;
+    text-decoration: none; 
+    border-radius: 5px;
+    transition: background-color 0.3s;
 }
 
 .trailer-link:hover {
-    background-color: #108d9b; /* Darker shade on hover */
+    background-color: #108d9b; 
 }
 
 
